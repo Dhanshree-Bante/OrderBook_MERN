@@ -4,7 +4,7 @@ import addbook from '../model/bookModel';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { sendemail } from '../middleware/sendmail';
-const stripe = require('stripe')('sk_test_51Liv5gSCzXeUfk7ZudnBB8NSQifHOBkozPVIIk5ObqclHKpu2f3Fh8VT8xQx9ngbyaYg7ixqN8R6kkei1BL2IUzr00NI1RXOX7');
+const stripe = require('stripe')('');
 
 export const userSignup = async (req, res) => {
   try {
